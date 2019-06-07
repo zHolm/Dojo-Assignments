@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class=" container">
+        <h1>Submitted Info</h1>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>{{name}}</td>
+            </tr>
+            <tr>
+                <td>Dojo Location:</td>
+                <td>{{location}}</td>
+            </tr>
+            <tr>
+                <td>Favorite Language:</td>
+                <td>{{language}}</td>
+            </tr>
+            <tr>
+                <td>Comment:</td>
+                <td>{{comment}}</td>
+            </tr>
+
+        </table>
+        <form>
+                <button href="/">Go Back</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+html{
+    color:black
+}
+
+.container{
+    border: 2px solid black;
+    min-height: 400px;
+    margin: 100px;
+    padding: 50px;
+}
+
+td, tr{
+    margin:20px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    margin-left: 260px;
+    
+
+}
